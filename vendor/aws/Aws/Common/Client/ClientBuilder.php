@@ -446,7 +446,7 @@ class ClientBuilder
                 'A region is required when using ' . $description->getData('serviceFullName')
             );
         } elseif ($global && !$region) {
-            $config[Options::REGION] = 'us-east-1';
+            $config[Options::REGION] = 'global';
         }
     }
 

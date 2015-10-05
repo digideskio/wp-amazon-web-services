@@ -54,6 +54,9 @@ return array(
         'us-east-1/s3' => array(
             'endpoint' => 's3.amazonaws.com'
         ),
+        'global/s3' => array(
+            'endpoint' => 'storage.googleapis.com'
+        ),
         'us-west-1/s3' => array(
             'endpoint' => 's3-{region}.amazonaws.com'
         ),

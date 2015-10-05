@@ -21,10 +21,15 @@ return array (
     'serviceAbbreviation' => 'Amazon S3',
     'serviceType' => 'rest-xml',
     'timestampFormat' => 'rfc822',
-    'globalEndpoint' => 's3.amazonaws.com',
+    'globalEndpoint' => 'storage.googleapis.com',
     'signatureVersion' => 's3',
     'namespace' => 'S3',
     'regions' => array(
+        'global' => array(
+            'http' => true,
+            'https' => true,
+            'hostname' => 'storage.googleapis.com',
+        ),
         'us-east-1' => array(
             'http' => true,
             'https' => true,
